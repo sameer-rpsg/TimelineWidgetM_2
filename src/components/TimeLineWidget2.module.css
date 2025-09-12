@@ -1,0 +1,385 @@
+.TimeLineWidget2 {
+  margin-top: 200px;
+  /* background-color: #000; */
+  color: #000000;
+}
+.TimeLineWidget2container {
+  margin-bottom: -80px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  max-width: 1520px;
+}
+.part_12 {
+  width: calc((100% - 176px) * 1 + 176px);
+  /* background-color: red; */
+}
+.TimeLineWidget2highlight {
+  position: relative;
+  padding-left: 120px;
+  padding-bottom: 250px;
+}
+.TimeLineWidget2highlight:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: #000;
+}
+.highlight__year {
+  position: absolute;
+  position: sticky;
+  top: 50%;
+  left: 0;
+  display: block;
+  height: 0;
+  font-size: 80px;
+  font-weight: 700;
+}
+.highlight__year span {
+  display: block;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  margin-left: -120px;
+}
+.highlightsmallTitle {
+  /* font-family: roc-grotesk, sans-serif; */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000;
+  width: 585px;
+}
+.highlightsmallpara {
+  /* font-family: roc-grotesk, sans-serif; */
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000;
+  width: 585px;
+  margin-top: 24px;
+}
+.highlight__text {
+  margin-top: 48px;
+  width: 585px;
+  margin-left: 120px;
+}
+.TimeLineWidget2highlight > *:not(.highlight__year) {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.TimeLineWidget2highlight > *:not(.highlight__year):nth-child(4) {
+  transition-delay: calc(0.2s * 4 - 0.2s);
+}
+.TimeLineWidget2highlight._into_view > *:not(.highlight__year) {
+  opacity: 1;
+  transform: translateY(0);
+}
+.hightlight__textpara {
+  /* font-family: roc-grotesk, sans-serif; */
+  line-height: 1.4;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+.highlight__text + * {
+  margin-top: 60px;
+}
+.highlight__layout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 840px;
+  margin-left: auto;
+}
+.TimeLineWidget2highlight > *:not(.highlight__year) {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.highlight__layout._large {
+  justify-content: center;
+}
+.TimeLineWidget2highlight > *:not(.highlight__year):nth-child(5) {
+  transition-delay: 0.8s;
+}
+.TimeLineWidget2highlight._into_view > *:not(.highlight__year) {
+  opacity: 1;
+  transform: translateY(0);
+}
+.TimeLineWidget2highlight:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -7px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #000;
+}
+.highlight_image {
+  border-radius: 24px;
+  overflow: hidden;
+}
+.highlight__layout._large .highlight_image {
+  width: 700px;
+  max-height: 460px;
+}
+.image__inner {
+  transform: scale(1.1);
+  will-change: transform;
+}
+.image__inner img {
+  margin-top: -10%;
+}
+.TimeLineWidget2highlight img {
+  border-radius: 24px;
+  object-fit: cover;
+}
+.TimeLineWidget2highlight:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: #000;
+}
+.highlight__layout._halfes {
+  grid-gap: 86px;
+  align-items: center;
+}
+.highlight__layout._overlay {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.highlight__layout._overlay .highlight_image:nth-child(2) {
+  width: 343px;
+}
+.TimeLineWidget2highlight:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -7px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background: #000;
+}
+.TimeLineWidget2highlight:last-child {
+  /* padding-bottom: 0; */
+}
+.TimeLineWidget2highlight:last-child .highlight__year {
+  /* position: absolute; */
+  top: 0;
+}
+.TimeLineWidget2highlight:last-child:before {
+  height: 300px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), transparent);
+}
+.highlight__layout._overlay .highlight_image:nth-child(1) {
+    margin-bottom: 66px;
+    margin-right: -66px;
+    width: 585px;
+}
+.lazyloadd.image__img{
+  position: relative;
+  width: 100%;
+    height: 100%;
+}
+@media (max-width: 1520px) {
+  .TimeLineWidget2 {
+    margin-top: 13.15vw;
+  }
+  .TimeLineWidget2container {
+    margin-bottom: -5.26vw;
+  }
+  .TimeLineWidget2highlight {
+    padding-left: calc(7.8947368421vw);
+    padding-bottom: calc(16.4473684211vw);
+  }
+  .highlight__year {
+    font-size: calc(5.2631578947vw);
+  }
+
+  .highlight__year span {
+    margin-left: calc(-7.8947368421vw);
+  }
+  .highlightsmallTitle {
+    font-size: 1.05vw;
+  }
+  .highlightsmallpara {
+    font-size: 2.1vw;
+    width: calc(38.4868421053vw);
+  }
+  .highlight__text {
+    margin-top: calc(3.1578947368vw);
+    width: calc(38.4868421053vw);
+    margin-left: calc(7.8947368421vw);
+  }
+  .hightlight__textpara {
+    font-size: 1.31vw;
+  }
+  .highlight__text + * {
+    margin-top: calc(3.9473684211vw);
+  }
+  .highlight__layout {
+    width: calc(55.2631578947vw);
+  }
+  .highlight_image {
+    border-radius: calc(1.5789473684vw);
+  }
+  .highlight__layout._large .highlight_image {
+    width: calc(46.0526315789vw);
+    max-height: calc(30.2631578947vw);
+  }
+  .highlight_image img {
+    border-radius: calc(1.5789473684vw);
+  }
+  .highlight__layout._halfes {
+    grid-gap: calc(5.6578947368vw);
+  }
+  .highlight__layout._overlay .highlight_image:nth-child(1) {
+    margin-right: calc(-4.3421052632vw);
+  }
+  .highlight__layout._overlay .highlight_image:nth-child(2) {
+    width: calc(22.5657894737vw);
+  }
+  .TimeLineWidget2highlight:last-child:before {
+    height: calc(19.7368421053vw);
+  }
+}
+
+@media (max-width: 834px) {
+  .TimeLineWidget2 {
+    margin-top: 13.15vw;
+    margin-bottom: 80px;
+  }
+  .TimeLineWidget2container {
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: -5.26vw;
+  }
+  .part_12 {
+    /* margin-bottom: 5.26vw; */
+    width: calc((100% - 176px) * 1 + 176px);
+  }
+  .TimeLineWidget2highlight {
+    padding-bottom: 80px;
+    padding-left: 80px;
+  }
+  .highlight__year {
+    font-size: 20px;
+  }
+  .highlight__year span {
+    margin-left: -40px;
+  }
+  .highlightsmallTitle {
+    width: 400px;
+    font-size: 16px;
+  }
+  .highlightsmallpara {
+    width: 400px;
+    font-size: 28px;
+    margin-top: 16px;
+  }
+  .highlight__text {
+    margin-left: 0;
+    width: 400px;
+    margin-top: 48px;
+  }
+  .hightlight__textpara {
+    font-size: 18px;
+  }
+  .highlight__layout {
+    width: 100%;
+  }
+  .highlight__layout._large .highlight_image {
+    max-height: unset;
+    width: 100%;
+    border-radius: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .TimeLineWidget2 {
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+  .TimeLineWidget2container {
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: -40px;
+  }
+  .part_12 {
+    /* margin-bottom: 5.26vw; */
+    width: calc((100% - 176px) * 1 + 176px);
+  }
+  .TimeLineWidget2highlight {
+    padding-bottom: 150px;
+    padding-left: 50px;
+  }
+  .TimeLineWidget2highlight:before {
+    top: 30px;
+  }
+  .highlight__year {
+    position: relative;
+    top: 0;
+    height: auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-size: 56px;
+  }
+  .highlight__year span {
+    transform: rotate(0);
+    transform-origin: left top;
+    margin-left: 0;
+  }
+  .highlightsmallTitle {
+    width: 100%;
+    font-size: 16px;
+  }
+  .highlightsmallpara {
+    width: 100%;
+    font-size: 26px;
+            margin-top: 16px;
+  }
+  .highlight__text {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 48px;
+  }
+  .hightlight__textpara {
+    font-size: 16px;
+  }
+  .highlight__layout {
+    width: 100%;
+    margin-top: 48px;
+  }
+  .highlight__layout._large .highlight_image {
+    max-height: unset;
+    width: 100%;
+    border-radius: 14px;
+  }
+  .TimeLineWidget2highlight:after {
+    top: 30px;
+  }
+  .highlight__layout._overlay .highlight_image:nth-child(1) {
+    width: 80%;
+    margin-right: -20px;
+    margin-bottom: 20px;
+  }
+  .highlight__layout._overlay .highlight_image:nth-child(2) {
+        width: 30%;
+    }
+}
