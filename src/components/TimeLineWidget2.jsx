@@ -113,7 +113,7 @@ const TimeLineWidget2 = () => {
                   <div className={styles.image__inner}>
                     <img
                       className={`${styles.lazyloadd} ${styles.image__img}`}
-                      src="https://scontent.fjlr3-1.fna.fbcdn.net/v/t39.30808-6/518272865_122126060210817324_8787439222009014323_n.jpg?stp=cp6_dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ud4OgmtF9RUQ7kNvwFfGK8i&_nc_oc=Admd02v8lsdrjzOCeqnEHgad9Dk_nRIuxU39UCQyDorCo4f52AvLq-xzoU-PS2sOPL4aohE7RwABZJo94pR1EoSI&_nc_zt=23&_nc_ht=scontent.fjlr3-1.fna&_nc_gid=I5oNv1M_1SthS55cfj-cLw&oh=00_AfZ0BCg-hppokS29GBMckcyTO8PPRuSuQFSC_70XmIenRA&oe=68BF27DD"
+                      src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/48684211.webp?k=eb364e0e760e5b043c05b8b00e4dfe21997195d1ba8d8e305cabac7e95334f69&o=v"
                     />
                   </div>
                 </div>
